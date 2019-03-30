@@ -9,6 +9,6 @@ Function **trit_sim(length, total)** can be also used for finding all possible v
 
 <p align="center">
           <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cc502b2cecdfb28fa8674bd32b3f1097ce6451be">
-          <br>
+          <br><br>
           Example with length = 5
 </p>
