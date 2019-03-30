@@ -1,5 +1,5 @@
-# Trinomial-triangle
-Python program which prints trinomial triangle 
+# Trinomial triangle
+**Python program which prints trinomial triangle**
 
 (see more https://en.wikipedia.org/wiki/Trinomial_triangle)
 
