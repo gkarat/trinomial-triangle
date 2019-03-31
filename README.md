@@ -1,5 +1,7 @@
-# Trinomial triangle
-**Python program which prints trinomial triangle**
+# Trinomial triangle 
+**Python program which can** <br>
+**1) print trinomial triangle** <br>
+**2) for given LENGTH and TOTAL values return the list of LENGTH long lists, consisting only of -1, 0 and 1 numbers, whose sum is TOTAL**
 
 (see more https://en.wikipedia.org/wiki/Trinomial_triangle)
 
@@ -12,3 +14,9 @@ Function **trit_sim(length, total)** can be also used for finding all possible v
           <br><br>
           Example with length = 5
 </p>
+
+
+# V tomto ukolu uvazujeme pole, ktera obsahuji pouze cisla -1, 0, 1.
+# Vasim ukolem bude implementovat funkci trit_sum, ktera pro zadana cisla
+# `length` a `total` vrati seznam vsech takovych poli delky `length`, jejichz
+# soucet je presne `total`.
