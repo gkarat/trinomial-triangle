@@ -1,5 +1,5 @@
 # Trinomial triangle 
-**Python program which can** <br>
+## Python 3.7 program which can <br>
 **1) print trinomial triangle** <br>
 **2) for given LENGTH and TOTAL values return the list of LENGTH long lists, consisting only of -1, 0 and 1 numbers, whose sum is TOTAL**
 
