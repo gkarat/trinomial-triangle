@@ -1,7 +1,7 @@
 # Trinomial triangle 
-### Python 3.7 program that includes following functionality: <br>
-**1) prints trinomial triangle** (see more https://en.wikipedia.org/wiki/Trinomial_triangle) <br>
-**2) for given LENGTH and TOTAL values returns the list of LENGTH long lists, consisting only of _-1, 0 and 1_ numbers, whose sum is TOTAL**
+### Python 3.7 program that includes the following functionality: <br>
+1. prints trinomial triangle _(see more https://en.wikipedia.org/wiki/Trinomial_triangle)_ <br>
+1. for given LENGTH and TOTAL values returns the list of LENGTH long lists, consisting only of _-1, 0 and 1_ numbers, whose sum is TOTAL**
 
 **Run with "py trinomial.py [arg]" command, where [arg] is the max height of printed triangle**
 
