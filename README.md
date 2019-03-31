@@ -1,8 +1,8 @@
 # Trinomial triangle 
 ### Python 3.7 program that includes the following functionality: <br>
 1. prints trinomial triangle _(see more https://en.wikipedia.org/wiki/Trinomial_triangle)_ <br>
-        please notice, that the asymptotic notation is more than O(LENGTH^2), because it is based on the function below
-1. for given LENGTH and TOTAL values returns the list of LENGTH long lists, consisting only of _-1, 0 and 1_ numbers, which sum is TOTAL
+###### please notice, that the asymptotic notation is more than O(LENGTH^2), because it is based on the function below_
+2. for given LENGTH and TOTAL values returns the list of LENGTH long lists, consisting only of _-1, 0 and 1_ numbers, which sum is TOTAL
 
 **Use it just by running a program, then you will be able to choose a needed function**
 
