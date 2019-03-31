@@ -49,17 +49,73 @@ def trit_sum(length, total):
     return res
 
 if __name__ == "__main__":
-    MAX_LENGTH = int(sys.argv[1])
 
-    for i in range(MAX_LENGTH):
-        for j in range(-MAX_LENGTH, MAX_LENGTH + 1):
-
-            out = len(trit_sum(i, j))
-
-            if out == 0:
-                print("".center(6), end='')
+    print("What you want to perform?\n1 - print trinomial tree, 2 - use trit_sum function (see more about in README)")
+    while True:
+        try:
+            ans = int(input())
+        except ValueError:
+            print("Enter only 1 or 2 number!")
+        else:
+            if ans not in [1, 2]:
+                print("Enter only 1 or 2 number!")
                 continue
+            break
 
-            print("{}".format(out).center(6), end='')
+    if ans == 1:
+        
+        print("Enter the tree length...")
+        while True:
+            try:
+                length = int(input())
+            except ValueError:
+                print("length must be a number more than or equal to 0!")
+            else:
+                if length < 0:
+                    print("length must be a number more than or equal to 0!")
+                    continue
+                break
 
-        print()
+        if length == 0:
+            sys.exit
+
+        for i in range(length):
+            for j in range(-length, length + 1):
+
+                out = len(trit_sum(i, j))
+
+                if out == 0:
+                    print("".center(6), end='')
+                    continue
+
+                print("{}".format(out).center(6), end='')
+
+            print()
+
+    elif ans == 2:
+
+        print("Enter the LENGTH argument...")
+
+        while True:
+            try:
+                length = int(input())
+            except ValueError:
+                print("length must be a number more than or equal to 0!")
+            else:
+                if length < 0:
+                    print("length must be a number more than or equal to 0!")
+                    continue
+                break
+
+
+        print("Set the TOTAL argument...")
+
+        while True:
+            try:
+                total = int(input())
+            except ValueError:
+                print("total must be a number!")
+            else:
+                break
+
+        print(trit_sum(length, total))
