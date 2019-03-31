@@ -10,4 +10,7 @@
           <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cc502b2cecdfb28fa8674bd32b3f1097ce6451be">
           <br><br>
           Example of trinomial triangle with LENGTH = 5
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/King_walks.svg/800px-King_walks.svg.png">
+          <br><br>
+          Number of ways to reach a cell with the minimum number of moves
 </p>
